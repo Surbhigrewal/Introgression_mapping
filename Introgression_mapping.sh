@@ -87,4 +87,4 @@ python3 cov_deviation_new_high.py \
 # ------------------------
 # Step 9: Plot genome-wide coverage deviation and highlight introgressions
 # ------------------------
-Rscript Kansas_mapping_new_Mut.R ${prefix}
+Rscript Chr.plot.R ${prefix}
