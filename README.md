@@ -9,10 +9,10 @@ These resources laid the groundwork for coverage-based introgression detection i
 The core structure and logic are inherited from these pipelines, but this implementation uses a custom coverage deviation script:
 cov_deviation_new.py, which introduces:
 
-Asymmetric normalisation for wheat and wild relative chromosomes
+* Asymmetric normalisation for wheat and wild relative chromosomes
 
-Dynamic scaling for wild relative chromosomes based on the top 10% coverage bins
+* Dynamic scaling for wild relative chromosomes based on the top 10% coverage bins
 
-Output formatted for compatibility with high-resolution R plotting
+* Output formatted for compatibility with high-resolution R plotting
 
 This enhancement improves detection sensitivity for subtle introgressions in ultra-low coverage datasets.
